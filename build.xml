@@ -1,0 +1,99 @@
+<project name="Retrieve and Deploy SFDC metadata" default="validate" basedir="." xmlns:sf="antlib:com.salesforce">
+	<taskdef uri="antlib:com.salesforce" resource="com/salesforce/antlib.xml" classpath="${basedir}/ant-salesforce.jar"/>
+	<taskdef resource= "net/sf/antcontrib/antcontrib.properties" classpath="ant-contrib/ant-contrib-1.0b3.jar"/>
+	<taskdef resource="net/sf/antcontrib/antlib.xml" classpath="ant-contrib/ant-contrib-1.0b3.jar"/>
+	<!-- <property name="sf.deployFile" value="./src/testPackage" />
+	<property name="sf.serverUrl" value="https://login.salesforce.com" />
+	<property name="sf.deployRoot" value="./src" /> -->
+
+	<property file="${basedir}/build.properties"/>
+	<!-- <property name="slackMessage" value="Salesforce%20Deployment%20Complete!%0A%20-%20commit%20=%20${commit.id}%20%0A%20-%20branch%20=%20${branch.id}%0A%20-%20host%20=%20${sf.serverUrl}%0A%20-%20username%20=%20${sf.username}%0A%20-%20testLevel%20=%20*${sf.testLevel}*%0A%20-%20checkOnly%20=%20*${sf.checkOnly}*"/> -->
+	<target name="build" >
+		<property name="sf.deployRoot" value="./src" />
+		<property name="sf.allowMissingFiles" value="true" />
+		<property name="sf.ignoreWarnings" value="true" />
+		<property name="sf.testLevel" value="NoTestRun" />
+
+		<sf:deploy
+			username="${sfdc.username}" 
+			password="${sfdc.password}" 
+			serverurl="${sf.serverUrl}"
+			testLevel="${sf.testLevel}"
+			checkOnly="false"
+			logType="Debugonly"
+			deployRoot="${sf.deployRoot}"
+			allowMissingFiles="${sf.allowMissingFiles}"
+			autoUpdatePackage="false"
+			rollbackOnError="true"
+			ignoreWarnings="${sf.ignoreWarnings}"/>
+	</target>
+	
+	<target name="validate">
+		<property name="sf.allowMissingFiles" value="false" />
+		<property name="sf.ignoreWarnings" value="false" />
+		<property name="sf.testLevel" value="NoTestRun" />
+		<property name="sf.deployRoot" value="./src" />
+		<sf:deploy username="${sf.username}" 
+			password="${sf.password}" 
+			serverurl="${sf.serverUrl}" 
+			deployRoot="${sf.deployRoot}"
+			pollWaitMillis="10000"
+			maxPoll="500"
+			allowMissingFiles="${sf.allowMissingFiles}"
+			ignoreWarnings="${sf.ignoreWarnings}"
+			testLevel="${sf.testLevel}"
+			checkOnly="true"/>
+  </target>
+
+	<!-- <target name="validate">
+		<property name="sf.deployRoot" value="./src" />
+		<property name="sf.allowMissingFiles" value="true" />
+		<property name="sf.ignoreWarnings" value="true" />
+		<property name="sf.testLevel" value="NoTestRun" />
+		<sf:deploy
+			username="${sf.username}" 
+			password="${sf.password}" 
+			serverurl="${sf.serverUrl}"
+			testLevel="${sf.testLevel}"
+			checkOnly="true"
+			logType="Debugonly"
+			deployRoot="${sf.deployRoot}"
+			allowMissingFiles="${sf.allowMissingFiles}"
+			autoUpdatePackage="false"
+			rollbackOnError="true"
+			ignoreWarnings="${sf.ignoreWarnings}"/>
+		<antcall target="postToSlack"/>
+	</target> -->
+
+	<!-- <target name="postToSlack">
+		<exec executable="curl">
+		<arg line="-d 'token=${slack.token}&channel=${slack.channel}&text=${slackMessage}&pretty=1' https://slack.com/api/chat.postMessage"/>
+		</exec>
+	</target> -->
+
+	<target name="deployInformation" depends="banner">
+		<echo level="info"> Information for this deployment:</echo>
+		<echo level="info"> - Target Host Name = ${sf.serverUrl}</echo>
+		<echo level="info"> - Login ID = ${sf.username}</echo>
+		<echo level="info"> - Deployment File = ${sf.deployFile}</echo>
+		<echo level="info"> - Test Only Mode = ${sf.checkOnly}</echo>
+		<echo level="info"> - Apex Test Level = ${sf.testLevel}</echo>
+		<echo level="info"> - Commit Id = ${commit.id}</echo>
+		<echo level="info"> - branch Id = ${branch.id}</echo>
+		<echo level="info"> - clonedire = ${clonedir}</echo>
+		<echo level="info"> - buildnum = ${buildnum}</echo>
+	</target>
+
+	<target name="banner">
+		<echo level="info">╔═════════════════════════════════════════════════════╗</echo>
+		<echo level="info">║                                                     ║</echo>
+		<echo level="info">║                                                     ║</echo>
+		<echo level="info">║                                                     ║</echo>
+		<echo level="info">║                                                     ║</echo>
+		<echo level="info">║                                                     ║</echo>
+		<echo level="info">║                                                     ║</echo>
+		<echo level="info">║                                                     ║</echo>
+		<echo level="info">║                                                     ║</echo>
+		<echo level="info">╚═════════════════════════════════════════════════════╝</echo>
+	</target>
+</project>
