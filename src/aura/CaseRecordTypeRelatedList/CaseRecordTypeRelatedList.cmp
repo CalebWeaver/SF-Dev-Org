@@ -1,0 +1,20 @@
+<aura:component description="CaseRecordTypeRelatedList" implements="force:hasRecordId,flexipage:availableForAllPageTypes">
+
+	<aura:attribute name="relatedListName" type="String" />
+	<aura:attribute name="recordType" type="String" />
+	<aura:attribute name="relatedListTitle" type="String" />
+	<aura:attribute name="filter" type="String" />
+	<aura:attribute name="showComponent" type="Boolean" default="false" />
+
+	<aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+
+	<aura:if isTrue="{!and(v.recordId, v.filter)}">
+		<CMTD:EnhancedRelatedList objectAPIName="Case" relatedListName="{!v.relatedListName}"
+															parentField="AccountId" parentId="{!v.recordId}"
+															displayType="List" layoutType="1 Column"
+															sort="CreatedDate DESC" filter="{!v.filter}"
+															defaultNumberofRecordsToDisplay="10" title="{!v.relatedListTitle}"
+															iconName="standard:case"
+															showHeader="true" showRefreshButton="true" />
+	</aura:if>
+</aura:component>

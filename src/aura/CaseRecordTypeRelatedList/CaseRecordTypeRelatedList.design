@@ -1,0 +1,5 @@
+<design:component>
+	<design:attribute name="relatedListName" label="Related List API Name" />
+	<design:attribute name="relatedListTitle" label="Related List Title" />
+	<design:attribute name="recordType" label="Record Type Developer Name" />
+</design:component>

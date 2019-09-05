@@ -1,0 +1,38 @@
+<template>
+	<div class="container slds-box">
+		<div class="slds-section-title slds-text-align_center slds-show slds-button" style="cursor: pointer" onclick={handleClashClick}>Clash!</div>
+		<div class="slds-section-title slds-text-align_center slds-show slds-button" style="cursor: pointer" onclick={handleRerollClick}>Reroll</div>
+		<div class="slds-grid">
+			<div class="character-1 slds-size_2-of-7 slds-align_absolute-center">
+				<template if:true={ScienceCharacter}>
+					<div>
+						<img class="science-boi" src="https://i.pinimg.com/originals/f6/b4/51/f6b4519378cd1bb9be3b8715647882b7.jpg"/>
+						<div class="attributes">
+							<div>Name: {ScienceCharacter.Name}</div>
+							<div>Strength: {ScienceCharacter.Strength}</div>
+							<div>Stamina: {ScienceCharacter.Stamina}</div>
+							<div>Spells: {ScienceCharacter.Spells}</div>
+							<div>Science: {ScienceCharacter.Science}</div>
+						</div>
+					</div>
+				</template>
+			</div>
+			<p class="slds-show_inline slds-section-title slds-m-top_xx-large">VS</p>
+			<div class="character-2 slds-size_2-of-7 slds-align_absolute-center">
+				<template if:true={SpellsCharacter}>
+					<div>
+						<img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/Gandalf600ppx.jpg/220px-Gandalf600ppx.jpg" />
+						<div class="attributes">
+							<div>Name: {SpellsCharacter.Name}</div>
+							<div>Strength: {SpellsCharacter.Strength}</div>
+							<div>Stamina: {SpellsCharacter.Stamina}</div>
+							<div>Spells: {SpellsCharacter.Spells}</div>
+							<div>Science: {SpellsCharacter.Science}</div>
+						</div>
+					</div>
+				</template>
+			</div>
+		</div>
+		<div class="slds-section-title slds-text-align_center slds-show">{ClashOutcome}</div>
+	</div>
+</template>

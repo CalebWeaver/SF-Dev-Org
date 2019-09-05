@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>45.0</apiVersion>
+    <description>Record Type Related List</description>
+    <isExposed>true</isExposed>
+    <masterLabel>Record Type Related List</masterLabel>
+    <targets>
+        <target>lightning__RecordPage</target>
+        <target>lightning__AppPage</target>
+        <target>lightning__HomePage</target>
+    </targets>
+
+    <targetConfigs>
+        <targetConfig targets="lightning__HomePage,lightning__RecordPage">
+            <property name="title" type="String" default="" label="List's Title"/>
+            <property name="object" type="String" default="" label="Object's API name"/>
+            <property name="icon" type="String" default="" label="Icon reference from Salesforce's icon reference"/>
+            <property name="iconTitle" type="String" default="" label="Icon title or alt text"/>
+            <property name="childField" type="String" default="" label="Lookup field on the related object"/>
+            <property name="recordType" type="String" default="" label="Object's Record Type name"/>
+            <property name="column1Label" type="String" default="" label="First Column Label"/>
+            <property name="column1Field" type="String" default="" label="First Column Field Name"/>
+            <property name="column1Type" type="String" default="" label="First Column Field Type (text, date, id)"/>
+            <property name="column2Label" type="String" default="" label="Second Column Label"/>
+            <property name="column2Field" type="String" default="" label="Second Column Field Name"/>
+            <property name="column2Type" type="String" default="" label="Second Column Field Type (text, date, id)"/>
+            <property name="column3Label" type="String" default="" label="Third Column Label"/>
+            <property name="column3Field" type="String" default="" label="Third Column Field Name"/>
+            <property name="column3Type" type="String" default="" label="Third Column Field Type (text, date, id)"/>
+            <property name="column4Label" type="String" default="" label="Fourth Column Label"/>
+            <property name="column4Field" type="String" default="" label="Fourth Column Field Name"/>
+            <property name="column4Type" type="String" default="" label="Fourth Column Field Type (text, date, id)"/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>
