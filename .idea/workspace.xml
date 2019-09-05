@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee56d2c3-d40b-4bb4-bbed-2bfc4e8a0f15" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
+    <list default="true" id="ee56d2c3-d40b-4bb4-bbed-2bfc4e8a0f15" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,9 +13,6 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Personal_Dev$RecordTypeRelatedListValidatorTest.null" NAME="Personal Dev Coverage Results" MODIFIED="1557945052433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="Apex" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" PROJECT_NAME="Personal Dev" CONNECTION_NAME="Personal Dev" CONNECTION_TYPE="MDAPI" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -49,62 +48,8 @@
       <replace />
     </replaceStrings>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/lwc/recordTypeRelatedList/recordTypeRelatedList.js-meta.xml" />
-        <option value="$PROJECT_DIR$/src/aura/CaseRecordTypeRelatedList/CaseRecordTypeRelatedList.design" />
-        <option value="$PROJECT_DIR$/src/aura/CaseRecordTypeRelatedList/CaseRecordTypeRelatedListHelper.js" />
-        <option value="$PROJECT_DIR$/src/aura/CaseRecordTypeRelatedList/CaseRecordTypeRelatedListController.js" />
-        <option value="$PROJECT_DIR$/src/aura/CaseRecordTypeRelatedList/CaseRecordTypeRelatedList.cmp" />
-        <option value="$PROJECT_DIR$/src/classes/RecordTypeRelatedListController.cls" />
-        <option value="$PROJECT_DIR$/src/lwc/recordTypeRelatedList/recordTypeRelatedList.js" />
-        <option value="$PROJECT_DIR$/src/lwc/recordTypeRelatedList/recordTypeRelatedList.html" />
-        <option value="$PROJECT_DIR$/src/staticresources/EmbeddedChatCustomization.resource" />
-        <option value="$PROJECT_DIR$/src/classes/LotrComparator.cls" />
-        <option value="$PROJECT_DIR$/src/classes/LotrComparisonUtility.cls" />
-        <option value="$PROJECT_DIR$/src/classes/LotrCharacter.cls" />
-        <option value="$PROJECT_DIR$/src/classes/CharacterType.cls" />
-        <option value="$PROJECT_DIR$/src/classes/RickAndMortyCharacter.cls" />
-        <option value="$PROJECT_DIR$/src/classes/LordOfTheRingsCharacter.cls" />
-        <option value="$PROJECT_DIR$/src/classes/FantasyCharacter.cls" />
-        <option value="$PROJECT_DIR$/src/classes/ClashField.cls" />
-        <option value="$PROJECT_DIR$/src/classes/FieldType.cls" />
-        <option value="$PROJECT_DIR$/src/classes/SecureApexRest.cls" />
-        <option value="$PROJECT_DIR$/src/classes/CharacterComparator.cls" />
-        <option value="$PROJECT_DIR$/src/classes/CharacterComparisonUtility.cls" />
-        <option value="$PROJECT_DIR$/src/pages/CharacterClash.page" />
-        <option value="$PROJECT_DIR$/src/lwc/characterClash/characterClash.js-meta.xml" />
-        <option value="$PROJECT_DIR$/src/aura/ClashContainerApp/ClashContainerApp.app" />
-        <option value="$PROJECT_DIR$/src/aura/CharacterClashAura/CharacterClashAura.cmp" />
-        <option value="$PROJECT_DIR$/src/lwc/characterClash/characterClash.css" />
-        <option value="$PROJECT_DIR$/src/classes/CharacterClasUtility_Backup.cls" />
-        <option value="$PROJECT_DIR$/src/classes/CharacterClashComparator.cls" />
-        <option value="$PROJECT_DIR$/src/classes/CharacterClashController_Complete.cls" />
-        <option value="$PROJECT_DIR$/src/classes/Arena_Complete.cls" />
-        <option value="$PROJECT_DIR$/src/classes/ArenaBuilder_Complete.cls" />
-        <option value="$PROJECT_DIR$/src/classes/ScienceCharacter_Complete.cls" />
-        <option value="$PROJECT_DIR$/src/classes/CharacterFactory.cls" />
-        <option value="$PROJECT_DIR$/src/lwc/characterClash/characterClash.html" />
-        <option value="$PROJECT_DIR$/src/classes/SpellsCharacter_Complete.cls" />
-        <option value="$PROJECT_DIR$/src/classes/CharacterClashComparator_Complete.cls" />
-        <option value="$PROJECT_DIR$/src/classes/Character_Complete.cls" />
-        <option value="$PROJECT_DIR$/src/classes/CharacterClashController_Backup.cls" />
-        <option value="$PROJECT_DIR$/src/classes/CharacterClashUtility_Backup.cls" />
-        <option value="$PROJECT_DIR$/src/classes/ScienceScharacter.cls" />
-        <option value="$PROJECT_DIR$/src/classes/Character_Backup.cls" />
-        <option value="$PROJECT_DIR$/src/lwc/characterClash/characterClash.js" />
-        <option value="$PROJECT_DIR$/src/classes/Arena.cls" />
-        <option value="$PROJECT_DIR$/src/classes/ArenaBuilder.cls" />
-        <option value="$PROJECT_DIR$/src/classes/CharacterClashController.cls" />
-        <option value="$PROJECT_DIR$/src/classes/Character.cls" />
-        <option value="$PROJECT_DIR$/src/classes/ScienceCharacter.cls" />
-        <option value="$PROJECT_DIR$/src/classes/SpellsCharacter.cls" />
-        <option value="$PROJECT_DIR$/src/classes/CharacterClashUtility.cls" />
-        <option value="$PROJECT_DIR$/src/classes/CharacterFactory_Complete.cls" />
-        <option value="$PROJECT_DIR$/src/classes/BetterList.cls" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IlluminatedCloudWorkspaceSettings">
     <option name="moduleWorkspaceSettings">
@@ -176,7 +121,7 @@
                       <entry key="AURADEFINITIONBUNDLE:CASERECORDTYPERELATEDLIST" value="1559249201684" />
                       <entry key="AURADEFINITIONBUNDLE:CHARACTERCLASHAURA" value="1565661013979" />
                       <entry key="AURADEFINITIONBUNDLE:CLASHCONTAINERAPP" value="1565660948236" />
-                      <entry key="LIGHTNINGCOMPONENTBUNDLE:CHARACTERCLASH" value="1565876989000" />
+                      <entry key="LIGHTNINGCOMPONENTBUNDLE:CHARACTERCLASH" value="1567712657000" />
                       <entry key="LIGHTNINGCOMPONENTBUNDLE:RECORDTYPERELATEDLIST" value="1559226751000" />
                       <entry key="STATICRESOURCES/EMBEDDEDCHATCUSTOMIZATION.RESOURCE" value="1563205375772" />
                     </map>
@@ -1402,44 +1347,10 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="1057" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Personal Dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Personal Dev" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Personal Dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Personal Dev" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Personal Dev" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Personal Dev" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
+  <component name="ProjectId" id="1QQpLSUoALd4AA4xUynwYiyWLNh" />
   <component name="PropertiesComponent">
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565881057243" />
@@ -1672,6 +1583,7 @@
       <workItem from="1566317273132" duration="596000" />
       <workItem from="1566539635500" duration="180000" />
       <workItem from="1566916394449" duration="482000" />
+      <workItem from="1567712620909" duration="43000" />
     </task>
     <servers />
   </component>
@@ -1701,9 +1613,6 @@
       <configuration name="RecordTypeRelatedListValidatorTest" configurationId="com.illuminatedcloud.intellij" />
     </history-entry>
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="202605000" />
-  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -1713,327 +1622,18 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21030043" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3277405" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32924107" />
-      <window_info anchor="bottom" id="Log Viewer" order="7" weight="0.59217876" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32962447" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50143063" side_tool="true" weight="0.41770715" />
-      <window_info anchor="bottom" id="Messages" order="11" />
-      <window_info anchor="bottom" id="Anonymous Apex" order="12" sideWeight="0.8619456" weight="0.5212435" />
-      <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="bottom" id="SOQL Query" order="15" weight="0.36994818" />
-      <window_info anchor="bottom" id="Illuminated Cloud" order="16" sideWeight="0.4985694" weight="0.41770715" />
-      <window_info anchor="bottom" id="Log Analyzer" order="17" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Maven" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/IlluminatedCloud/Personal_Dev/OfflineSymbolTable.zip!/Schema/SObjectType.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lwc/recordTypeRelatedList/recordTypeRelatedList.js">
-      <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.LightningControllerFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningMarkupFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/aura/CaseRecordTypeRelatedList/CaseRecordTypeRelatedListController.js">
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningHelperFileEditorProvider" />
-      <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.LightningControllerFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningDesignFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningMarkupFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/RecordTypeRelatedListValidator.cls">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.MetadataFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/RecordTypeRelatedListValidatorTest.cls">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="58" selection-start-line="38" selection-start-column="58" selection-end-line="38" selection-end-column="58" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.MetadataFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/SortableListTest.cls">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.MetadataFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/aura/CaseRecordTypeRelatedList/CaseRecordTypeRelatedList.cmp">
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningHelperFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningControllerFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningDesignFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
-      <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.LightningMarkupFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/aura/CaseRecordTypeRelatedList/CaseRecordTypeRelatedListHelper.js">
-      <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.LightningHelperFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningControllerFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningDesignFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningMarkupFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/RecordTypeRelatedListController.cls">
-      <provider editor-type-id="text-editor">
-        <state>
-          <caret column="54" selection-start-column="54" selection-end-column="54" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.MetadataFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
-    </entry>
-    <entry file="jar://$APPLICATION_PLUGINS_DIR$/IlluminatedCloud2/lib/IlluminatedCloud.jar!/lwc/lwc-standard.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-419">
-          <caret line="1285" column="2" selection-start-line="1285" selection-start-column="2" selection-end-line="1285" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/MockSObjectBuilder.cls">
-      <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.MetadataFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/staticresources/EmbeddedChatCustomization.resource">
-      <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.MetadataFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/aura/CaseRecordTypeRelatedList/CaseRecordTypeRelatedList.design">
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningHelperFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningControllerFileEditorProvider" />
-      <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.LightningDesignFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningMarkupFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/MockSObjectBuilderTest.cls">
-      <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.MetadataFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/SecureApexRest.cls">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.MetadataFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/ClashField.cls" />
-    <entry file="file://$PROJECT_DIR$/src/classes/CharacterType.cls" />
-    <entry file="file://$PROJECT_DIR$/src/classes/FantasyCharacter.cls" />
-    <entry file="file://$PROJECT_DIR$/src/classes/CharacterComparator.cls">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="39" lean-forward="true" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.MetadataFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/FieldType.cls" />
-    <entry file="file://$PROJECT_DIR$/src/lwc/characterClash/characterClash.js-meta.xml">
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningControllerFileEditorProvider" />
-      <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.LightningStyleFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningMarkupFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lwc/characterClash/characterClash.html">
-      <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.LightningControllerFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningStyleFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningMarkupFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/CharacterClash.page" />
-    <entry file="file://$PROJECT_DIR$/src/aura/ClashContainerApp/ClashContainerApp.app" />
-    <entry file="file://$PROJECT_DIR$/src/aura/CharacterClashAura/CharacterClashAura.cmp" />
-    <entry file="jar://$PROJECT_DIR$/IlluminatedCloud/Personal_Dev/OfflineSymbolTable.zip!/System/Math.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="171" column="25" selection-start-line="171" selection-start-column="25" selection-end-line="171" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lwc/recordTypeRelatedList/recordTypeRelatedList.html">
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningControllerFileEditorProvider" />
-      <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.LightningMarkupFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/CharacterClasUtility_Backup.cls" />
-    <entry file="file://$PROJECT_DIR$/src/classes/Arena_Complete.cls">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.MetadataFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/ArenaBuilder_Complete.cls">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.MetadataFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/ScienceCharacter_Complete.cls">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.MetadataFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/CharacterClashController_Complete.cls">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.MetadataFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/CharacterFactory.cls">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.MetadataFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/SpellsCharacter_Complete.cls">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.MetadataFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/Character_Complete.cls">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.MetadataFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/Character_Backup.cls">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.MetadataFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/CharacterClashComparator_Complete.cls">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.MetadataFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/CharacterClashUtility_Backup.cls">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.MetadataFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/CharacterClashController_Backup.cls">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.MetadataFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lwc/characterClash/characterClash.js">
-      <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.LightningControllerFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningStyleFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.LightningMarkupFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/Character.cls">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.MetadataFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/SpellsCharacter.cls">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.MetadataFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/ScienceCharacter.cls">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.MetadataFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/CharacterClashController.cls">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.MetadataFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/CharacterFactory_Complete.cls">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.MetadataFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/CharacterClashUtility.cls">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.MetadataFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/ArenaBuilder.cls">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.MetadataFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/Arena.cls">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.MetadataFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/IlluminatedCloud/Personal_Dev/OfflineSymbolTable.zip!/System/List.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="805">
-          <caret line="104" column="16" selection-start-line="104" selection-start-column="16" selection-end-line="104" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/BetterList.cls">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.MetadataFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classes/SortableList.cls">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="com.illuminatedcloud.intellij.editor.MetadataFileEditorProvider" />
-      <provider editor-type-id="com.illuminatedcloud.intellij.editor.MetaXmlFileEditorProvider" />
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
