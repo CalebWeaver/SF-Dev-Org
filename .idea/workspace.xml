@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee56d2c3-d40b-4bb4-bbed-2bfc4e8a0f15" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -121,7 +120,7 @@
                       <entry key="AURADEFINITIONBUNDLE:CASERECORDTYPERELATEDLIST" value="1559249201684" />
                       <entry key="AURADEFINITIONBUNDLE:CHARACTERCLASHAURA" value="1565661013979" />
                       <entry key="AURADEFINITIONBUNDLE:CLASHCONTAINERAPP" value="1565660948236" />
-                      <entry key="LIGHTNINGCOMPONENTBUNDLE:CHARACTERCLASH" value="1567712657000" />
+                      <entry key="LIGHTNINGCOMPONENTBUNDLE:CHARACTERCLASH" value="1567712666000" />
                       <entry key="LIGHTNINGCOMPONENTBUNDLE:RECORDTYPERELATEDLIST" value="1559226751000" />
                       <entry key="STATICRESOURCES/EMBEDDEDCHATCUSTOMIZATION.RESOURCE" value="1563205375772" />
                     </map>
@@ -1355,6 +1354,12 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565881057243" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -1583,7 +1588,7 @@
       <workItem from="1566317273132" duration="596000" />
       <workItem from="1566539635500" duration="180000" />
       <workItem from="1566916394449" duration="482000" />
-      <workItem from="1567712620909" duration="43000" />
+      <workItem from="1567712620909" duration="1031000" />
     </task>
     <servers />
   </component>
