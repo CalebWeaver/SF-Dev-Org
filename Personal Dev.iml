@@ -45,6 +45,10 @@
                             <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="BusScheduleCache" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="ChangePasswordController" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
